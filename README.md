@@ -1,8 +1,42 @@
-# MoMoney 
-
-[MoMoney](https://mo-money-2f924.firebaseapp.com/)
+# MoMoney
 
 MoMoney is an application that will allow you to compare job offers based on income, benefits, and costs. The 'Adjusted' value indicates the amount that you will net after taxes and changes in cost of living with Denver being the baseline location.
+
+The application was built using React.js with a backend powered by Google Firebase. A live deployment of the application can be found here: [Mo Money](https://mo-money-2f924.firebaseapp.com/)
+
+![Mo Money Application Gif](https://media.giphy.com/media/l0ExbeXeVHvhqA2hW/giphy.gif)
+
+## Installation
+
+To install the dependencies:
+
+```
+npm install
+```
+
+To fire up a development server:
+
+```
+npm start
+```
+
+Once the server is running, you can visit:
+
+* `http://localhost:8080/public/` to run the application.
+
+To build the static files:
+
+```js
+npm run build
+```
+
+
+To run tests in Node:
+
+```js
+npm test
+```
+
 
 ## Datasources
 
@@ -21,5 +55,3 @@ MoMoney is an application that will allow you to compare job offers based on inc
 * The work week is five days long
 * There are 40 hours in the work week
 * 48 weeks in the offce
-
-
